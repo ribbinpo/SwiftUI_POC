@@ -14,6 +14,8 @@
 		BD53168F2ABAEC0E00063CA1 /* Tutorial101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53168E2ABAEC0E00063CA1 /* Tutorial101Tests.swift */; };
 		BD5316992ABAEC0E00063CA1 /* Tutorial101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5316982ABAEC0E00063CA1 /* Tutorial101UITests.swift */; };
 		BD53169B2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53169A2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift */; };
+		BDBF1CF72ABAF85F000136CE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF1CF62ABAF85F000136CE /* CircleImage.swift */; };
+		BDBF1CF92ABAFC02000136CE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF1CF82ABAFC02000136CE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BD5316942ABAEC0E00063CA1 /* Tutorial101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5316982ABAEC0E00063CA1 /* Tutorial101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial101UITests.swift; sourceTree = "<group>"; };
 		BD53169A2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial101UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDBF1CF62ABAF85F000136CE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BDBF1CF82ABAFC02000136CE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				BD53167D2ABAEC0D00063CA1 /* Tutorial101App.swift */,
 				BD53167F2ABAEC0D00063CA1 /* ContentView.swift */,
 				BD5316812ABAEC0E00063CA1 /* Assets.xcassets */,
+				BDBF1CF62ABAF85F000136CE /* CircleImage.swift */,
+				BDBF1CF82ABAFC02000136CE /* MapView.swift */,
 				BD5316832ABAEC0E00063CA1 /* Preview Content */,
 			);
 			path = Tutorial101;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5316802ABAEC0D00063CA1 /* ContentView.swift in Sources */,
+				BDBF1CF92ABAFC02000136CE /* MapView.swift in Sources */,
 				BD53167E2ABAEC0D00063CA1 /* Tutorial101App.swift in Sources */,
+				BDBF1CF72ABAF85F000136CE /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
