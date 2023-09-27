@@ -16,6 +16,12 @@
 		BD53169B2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD53169A2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift */; };
 		BDBF1CF72ABAF85F000136CE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF1CF62ABAF85F000136CE /* CircleImage.swift */; };
 		BDBF1CF92ABAFC02000136CE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF1CF82ABAFC02000136CE /* MapView.swift */; };
+		BDDA09942AC03D24005A718C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA09932AC03D24005A718C /* Landmark.swift */; };
+		BDDA09962AC03DC9005A718C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = BDDA09952AC03DC9005A718C /* landmarkData.json */; };
+		BDDA09982AC049F4005A718C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA09972AC049F4005A718C /* ModelData.swift */; };
+		BDDA099D2AC1AE88005A718C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA099C2AC1AE88005A718C /* LandmarkRow.swift */; };
+		BDDA09A32AC1B2AA005A718C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA09A22AC1B2AA005A718C /* LandmarkList.swift */; };
+		BDDA09A52AC1E53B005A718C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA09A42AC1E53B005A718C /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		BD53169A2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial101UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDBF1CF62ABAF85F000136CE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		BDBF1CF82ABAFC02000136CE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BDDA09932AC03D24005A718C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		BDDA09952AC03DC9005A718C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		BDDA09972AC049F4005A718C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BDDA099C2AC1AE88005A718C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		BDDA09A22AC1B2AA005A718C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		BDDA09A42AC1E53B005A718C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,11 @@
 		BD53167C2ABAEC0D00063CA1 /* Tutorial101 */ = {
 			isa = PBXGroup;
 			children = (
+				BDDA099B2AC08902005A718C /* Resources */,
+				BDDA099A2AC088F7005A718C /* Models */,
+				BDDA09992AC088ED005A718C /* Views */,
 				BD53167D2ABAEC0D00063CA1 /* Tutorial101App.swift */,
-				BD53167F2ABAEC0D00063CA1 /* ContentView.swift */,
 				BD5316812ABAEC0E00063CA1 /* Assets.xcassets */,
-				BDBF1CF62ABAF85F000136CE /* CircleImage.swift */,
-				BDBF1CF82ABAFC02000136CE /* MapView.swift */,
 				BD5316832ABAEC0E00063CA1 /* Preview Content */,
 			);
 			path = Tutorial101;
@@ -131,6 +143,36 @@
 				BD53169A2ABAEC0E00063CA1 /* Tutorial101UITestsLaunchTests.swift */,
 			);
 			path = Tutorial101UITests;
+			sourceTree = "<group>";
+		};
+		BDDA09992AC088ED005A718C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD53167F2ABAEC0D00063CA1 /* ContentView.swift */,
+				BDBF1CF62ABAF85F000136CE /* CircleImage.swift */,
+				BDBF1CF82ABAFC02000136CE /* MapView.swift */,
+				BDDA099C2AC1AE88005A718C /* LandmarkRow.swift */,
+				BDDA09A22AC1B2AA005A718C /* LandmarkList.swift */,
+				BDDA09A42AC1E53B005A718C /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDDA099A2AC088F7005A718C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA09972AC049F4005A718C /* ModelData.swift */,
+				BDDA09932AC03D24005A718C /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDDA099B2AC08902005A718C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA09952AC03DC9005A718C /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +239,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					BD5316792ABAEC0D00063CA1 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -239,6 +281,7 @@
 			files = (
 				BD5316852ABAEC0E00063CA1 /* Preview Assets.xcassets in Resources */,
 				BD5316822ABAEC0E00063CA1 /* Assets.xcassets in Resources */,
+				BDDA09962AC03DC9005A718C /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +309,12 @@
 				BD5316802ABAEC0D00063CA1 /* ContentView.swift in Sources */,
 				BDBF1CF92ABAFC02000136CE /* MapView.swift in Sources */,
 				BD53167E2ABAEC0D00063CA1 /* Tutorial101App.swift in Sources */,
+				BDDA09A32AC1B2AA005A718C /* LandmarkList.swift in Sources */,
+				BDDA09A52AC1E53B005A718C /* LandmarkDetail.swift in Sources */,
 				BDBF1CF72ABAF85F000136CE /* CircleImage.swift in Sources */,
+				BDDA09942AC03D24005A718C /* Landmark.swift in Sources */,
+				BDDA099D2AC1AE88005A718C /* LandmarkRow.swift in Sources */,
+				BDDA09982AC049F4005A718C /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +387,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -399,6 +448,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
